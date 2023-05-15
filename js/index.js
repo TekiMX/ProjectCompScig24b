@@ -1,4 +1,4 @@
-const elementForm = document.querySelector("#formBox");
+const elementForm = document.querySelector("#formBoxData");
 
 elementForm.addEventListener("submit",(event)=>{
     event.preventDefault();
@@ -9,7 +9,3 @@ elementForm.addEventListener("submit",(event)=>{
     console.log(niuShit);
 })
 
-const loginForm = document.forms.login; // Or document.forms['login']
-    loginForm.elements.  
-    loginForm.elements.email.placeholder = "teasasst@example.com";
-    loginForm.elements.password.placeholder = "password";

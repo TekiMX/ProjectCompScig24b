@@ -9,17 +9,17 @@
     <title>Intento de Proyecto</title>
 </head>
 <header>
-    <H1>Este es el Header</H1>
+    <H1>INFORMACION BASICA SOBRE EL TAEKWONDO</H1>
+    <h2>En esta pagina encontraras informacion sencilla sobre los movimientos segun el grado de cinta.<br> Una muestra basica de patadas, golpes, defensas y mas detalles sobre este apasionante deporte.</h2>
 </header>
 
 <body>
     <main>
-        <div id="divLeft">
-            <form id="formBox">
-                <div class="inputText">
-                    <label for="hiText">Manda un saludo</label>
-                    <input type="text" id="hiText" name="hiText" placeholder="escribe tu saludo aqui" required />
-                </div>
+        <!-- Aqui va el div de la parte de la izquierda -->
+        <div id="divLeft" class="midleSections">
+            <h2 class="divPadding">Grados y cinturones de Taekwondo WTF</h2>
+            <p class="divPadding">El grado o nivel del practicante se distingue por el color de su cinturon el cual determina las tecnicas que debe dominar para poder seguir avanzando de grado y aprender nuevas instrucciones para su continuo crecimiento</p>
+            <form id="formBoxRadios" class="divPadding">
                 <div id="formRadioButtons">
                     <div class="radioButtons">
                         <input type="radio" name="beltRadio" id="whitebelt" value="whiteBelt">
@@ -45,22 +45,49 @@
                         <input type="radio" name="beltRadio" id="blackBelt" value="blackBelt">
                         <label for="blackBelt">Cinta Negra 1er Dan</label>
                     </div>
-                    <div id="submitButton">
+                    <div id="submitDatos">
                         <button type="submit"> Desplegar
                         </button>
                     </div>
                 </div>
             </form>
         </div>
-        <div id="divCenter">
-            <form name="login">
-                <input name="email" type="email" />
-                <input name="password" type="password" />
-                <button type="submit">Log in</button>
-              </form>
-          
+
+        <!-- Este es el div central  -->
+        <div id="divCenter" class="midleSections">
+            
         </div>
-        <div id="divRight">Y por ultimo el div derecho</div>
+
+        <!-- Aqui va el div con la parte de la derecha de la pantalla -->
+        <div id="divRight" class="midleSections">
+            <article  class="divPadding">
+                <div id="contactData">
+                    <h2>Datos de Contacto</h2>
+                    <p>Dejanos aqui tus datos y dinos si te gustaria que nos contactemos contigo para platicarte porque
+                        deberias de practicar este bonito deporte que tambien es un estilo de vida saludable para el
+                        cuerpo
+                        y mente!</p>
+                </div>
+                <form autocomplete="off" id="formBoxData">
+                    <div class="inputText">
+                        <label for="yourName">
+                            <h3>Nombre</h3>
+                        </label>
+                        <input type="text" id="yourName" name="yourName" placeholder="escribe tu nombre" required />
+                        <label for="email">
+                            <h3>Correo electronico</h3>
+                        </label>
+                        <input type="email" id="email" name="email" placeholder="escribe tu correo electronico">
+                        <label for="interest">
+                            <h3>Te gustaria practicar el TaeKwonDo?</h3>
+                        </label>
+                        <textarea name="interest" id="interest" cols="30" rows="5"
+                            placeholder="escribe unas lineas acerca de que es lo que mas te atrae de este deporte y estilo de vida"></textarea>
+                        <button type="submit">Contactame!</button>    
+                    </div>
+                </form>
+            </article>
+        </div>
     </main>
     <footer>
         <h3>Y por ultimo el footer</h3>

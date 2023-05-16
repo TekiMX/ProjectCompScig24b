@@ -14,12 +14,13 @@ const main = () => {
     
     const organizedData = (data) => {
         data.forEach(element => {
-            const {belt, type, nameK, nameMX} = element;
+            const {belt, type, nameK, nameMX, image} = element;
             const techniquesSelected ={
                 belt: belt,
                 type: type, 
                 nameK: nameK,
-                nameMX: nameMX
+                nameMX: nameMX,
+                image: image
             };
             tecniques.push(techniquesSelected);
         });

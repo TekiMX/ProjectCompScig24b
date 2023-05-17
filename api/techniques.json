@@ -1,24 +1,15 @@
 [
     {
         "belt": "white",
-        "type": "punch",
-        "nameK": "momtong jiruji",
-        "nameMX": "golpe medio",
-        "url": "https://www.mekk.at/tkdn/wp-content/uploads/2017/09/Grundtechniken_Momtong-jirugi_seite.jpg",
+        "image": "https://www.mekk.at/tkdn/wp-content/uploads/2017/09/Grundtechniken_Momtong-jirugi_seite.jpg"
     },
     {
         "belt": "white",
-        "type": "kick",
-        "nameK": "ap chagui",
-        "nameMX": "patada de frente",
-        "url": "https://www.mekk.at/tkdn/wp-content/uploads/2017/09/Grundtechniken_Ap-chagi.jpg",
+        "image": "https://www.mekk.at/tkdn/wp-content/uploads/2017/09/Grundtechniken_Ap-chagi.jpg"
     },
     {
         "belt": "white",
-        "type": "block",
-        "nameK": "momtong maki",
-        "nameMX": "defensa media",
-        "url": "https://www.mekk.at/tkdn/wp-content/uploads/2017/09/Grundtechniken_Momtong-makki.jpg",
-    },
+        "image": "https://www.mekk.at/tkdn/wp-content/uploads/2017/09/Grundtechniken_Momtong-makki.jpg"
+    }
     
 ]

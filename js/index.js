@@ -6,13 +6,30 @@ let techniques = [];
 let contactData =[];
 
 /************************** acceso a JSON ********************************/
+const main = () => {
+    fetch("./api/techniques.json")
+    .then(response => response.json())
+    .then(data => organizedData(data))
+};
 
-        fetch("./api/techniques.json")
-        .then(response => response.json())
-        .then(data => organizedData (data))
-        /* .then(data => console.log(data)) */
-        .then(techniques => techniques.forEach(renderDivCentral))
-        
+const organizedData = (data) => {
+    data.forEach(element => {
+        const {belt, image} = element;
+        const technique ={
+            belt: belt,
+            image: image
+        };
+        /* console.log("este es mi techniquesSelected", techniquesSelected); */
+        techniques.push(technique);
+    });
+return techniques;
+};
+
+const findObjectsByColor = (color) => {
+    const objectsWithColor = techniques.filter(obj => obj.belt === color);
+    return objectsWithColor;
+  };
+  
 
 /******************************** forms ***************************************/
 /* Acceso a los datos del form de radios*/
@@ -51,19 +68,6 @@ const renderDivCentral = (element) => {
     /* techDiv.appendChild(imgkDiv); */
 };
 //function organizedData para seleccionar los datos del json
-const organizedData = (data) => {
-    data.forEach(element => {
-        const {belt, image} = element;
-        console.log(`here is belt object ${belt}`);
-        const techniquesSelected ={
-            belt: belt,
-            image: image
-        };
-        /* console.log("este es mi techniquesSelected", techniquesSelected); */
-        techniques.push(techniquesSelected);
-    });
-return techniques;
-};
 
 
 /******************************* I N C O R P O R A R ********************************/
@@ -74,8 +78,11 @@ const language = {
 }
 languages.push(language);
 // limpiar la vista anterior
-cleanView();
+clView()ean;
 // call funcion que crea y agrega los elementos nuevos.
 renderViewlanguages(languages);
 // actualizar total de elementos
 renderTotal();
+
+//lanza la aplicacion
+main();

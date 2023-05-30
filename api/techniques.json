@@ -22,5 +22,53 @@
     {
         "belt": "yellow",
         "image": "https://sparkmembership.com/wp-content/uploads/2023/04/High-block.png"
-    } 
+    },
+    {
+        "belt": "green",
+        "image": "https://deportesyartesmarciales.com/wp-content/uploads/2020/12/Patada-Circular-o-Dolyo-Chagy-en-Taekwondo.jpg"
+    },
+    {
+        "belt": "green",
+        "image": "https://img.webme.com/pic/g/gimnasiogamonal/gamonalsonnalmokchigui1.jpg"
+    },
+    {
+        "belt": "green",
+        "image": "https://www.taekwondoalgete.com/files/janmontbkmaki.jpg"
+    },
+    {
+        "belt": "blue",
+        "image": "https://scontent-dfw5-1.xx.fbcdn.net/v/t1.6435-9/53733296_2549363858471588_6047598464286588928_n.jpg?stp=cp0_dst-jpg_e15_q65_s480x480&_nc_cat=103&ccb=1-7&_nc_sid=110474&_nc_ohc=HxUvDpXKidwAX-qV2OU&_nc_ht=scontent-dfw5-1.xx&oh=00_AfD7iyUbBe4viJ70hH0XP3hW8M3YicGKOMnb_ikP8rQQTg&oe=649CFD30"
+    },
+    {
+        "belt": "blue",
+        "image": "https://scontent-dfw5-1.xx.fbcdn.net/v/t1.6435-9/43500595_2126767784249740_5181685039678619648_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=5UI0WtmJIfUAX87d-or&_nc_ht=scontent-dfw5-1.xx&oh=00_AfDB05IpRHPxrMnGxGAb1Bww3J9zwByKg4n574qEneDNSg&oe=649D0F07"
+    },
+    {
+        "belt": "blue",
+        "image": "https://www.taekwondoalgete.com/files/montbakmak.jpg"
+    },
+    {
+        "belt": "red",
+        "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/557c695c-035f-477a-82c6-579891772305/dt143j-e4e9f603-189a-4978-9d94-8f74bcbc1df3.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1N2M2OTVjLTAzNWYtNDc3YS04MmM2LTU3OTg5MTc3MjMwNVwvZHQxNDNqLWU0ZTlmNjAzLTE4OWEtNDk3OC05ZDk0LThmNzRiY2JjMWRmMy5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.jD0ERcSumUEvmA-_AXDWSSTrwy6tJd35QEZCR42INMM"
+    },
+    {
+        "belt": "red",
+        "image": "https://deportesyartesmarciales.com/wp-content/uploads/2022/06/Patada-de-Gancho-con-Giro-en-Taekwondo.jpg"
+    },
+    {
+        "belt": "red",
+        "image": "https://www.taekwondoalgete.com/files/batansoanmk.jpg"
+    },
+    {
+        "belt": "black",
+        "image": "https://www.asich.com/wp-content/uploads/2021/12/INSTITUTO.OLIMPICO-341x381.jpg"
+    },
+    {
+        "belt": "black",
+        "image": "https://scontent-dfw5-1.xx.fbcdn.net/v/t1.6435-9/85105682_2872434939482228_1434540384196755456_n.jpg?stp=cp0_dst-jpg_e15_p403x403_q65&_nc_cat=101&ccb=1-7&_nc_sid=110474&_nc_ohc=l5V6-_pwxCoAX_Q18ib&_nc_ht=scontent-dfw5-1.xx&oh=00_AfD8BBU0IOxdTufTfWqNFBUVvWkuIZ3bkg610UkDoQu7AA&oe=649CEB18"
+    },
+    {
+        "belt": "black",
+        "image": "https://www.taekwondoalgete.com/files/godurobatansmanmk.jpg"
+    }
 ]
